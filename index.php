@@ -17,7 +17,7 @@
 	];
 
 	// Set default value for limit (if $_GET param is not passed)
-	$limit = 0;
+	$limit = 2;
 
 	// Set the limit to the $_GET param "limit"
 	if (array_key_exists("limit", $_GET)) {
